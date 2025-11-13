@@ -1,0 +1,33 @@
+﻿{
+  "ru": {
+    "name": "Андреев Валерий",
+    "about_title": "Обо мне",
+    "about_short": "Коротко",
+    "about_text": "Я занимаюсь разработкой на Unity более 5 лет. Последние три года работал в команде Azur Games, где помимо работы над проектами, реализовывал editor инструменты для технических артистов в Unity/Cocos. Также в свободное время, реализовал небольшой пет проект, с которым можно ознакомиться ниже.",
+    "short_skill_1": "Оптимизация производительности",
+    "short_skill_2": "Чистый код, использование паттернов проектирования",
+    "skills_title": "Навыки",
+    "works_title": "Работы",
+    "works_subtitle": "Несколько примеров моих работ",
+    "about_project1": "Настраиваемый компонент для Unity, который позволяет интерактивно вращать 3D/2D объекты в сцене.",
+    "about_project2": "Тайм менеджмент игра про ферму.",
+    "about_project3": "Puzzle grid generator",
+    "contacts": "Контакты"
+  },
+
+  "en": {
+    "name": "Valery Andreev",
+    "about_title": "About me",
+    "about_short": "Briefly",
+    "about_text": "I have been developing with Unity for more than 5 years. For the last three years I worked at Azur Games, where besides project work I created custom editor tools for technical artists in Unity/Cocos. In my spare time I also developed a small pet project which you can see below.",
+    "short_skill_1": "Performance optimization",
+    "short_skill_2": "Clean code, use of design patterns",
+    "skills_title": "Skills",
+    "works_title": "Projects",
+    "works_subtitle": "Some examples of my work",
+    "about_project1": "A customizable Unity component that allows interactive rotation of 3D/2D objects in the scene.",
+    "about_project2": "A time-management farm game.",
+    "about_project3": "Puzzle grid generator",
+    "contacts": "Contacts"
+  }
+}

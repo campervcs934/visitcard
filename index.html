@@ -13,10 +13,12 @@
       <a class="brand" href="#hero" aria-label="Перейти вверх">
         <img src="assets/logo.png" alt="" class="logo">
         <div>
-          <div class="name">Андреев Валерий</div>
+          <div class="name" data-i18n="name">Андреев Валерий</div>
           <div class="role">C# / Unity</div>
         </div>
       </a>
+
+      <button id="lang-toggle" class="lang-btn">EN</button>
     </div>
   </header>
 
@@ -24,25 +26,25 @@
 
     <section id="about" class="section about">
       <div class="container">
-        <h2 class="section-title">Обо мне</h2>
+        <h2 class="section-title" data-i18n="about_title">Обо мне</h2>
         <div class="about-grid">
           <div class="about-card card">
-            <h3>Коротко</h3>
-            <p>Я занимаюсь разработкой на Unity более 5 лет. 
-            За это время успел поработать в команде Azur games, где помимо работы над проектами, реализовывал editor инструменты для технических артистов в Unity/Cocos.
+            <h3 data-i18n="about_short">Коротко</h3>
+            <p data-i18n="about_text">Я занимаюсь разработкой на Unity более 5 лет. 
+            Последние три года работал в команде Azur Games, где помимо работы над проектами, реализовывал editor инструменты для технических артистов в Unity/Cocos.
             Также в свободное время, реализовал небольшой пет проект, с которым можно ознакомиться ниже.</p>
             <ul>
-              <li>Оптимизация производительности</li>
-              <li>Чистая архитектура и паттерны</li>
+              <li data-i18n="short_skill_1">Оптимизация производительности</li>
+              <li data-i18n="short_skill_2">Чистый код, использование паттернов проектирования</li>
             </ul>
           </div>
 
           <div class="skills-card card">
-            <h3>Навыки</h3>
+            <h3 data-i18n="skills_title">Навыки</h3>
             <div class="skill-bars">
-              <div class="skill"><span>Unity</span><div class="bar"><div class="fill" style="--w:92%"></div></div></div>
-              <div class="skill"><span>C#</span><div class="bar"><div class="fill" style="--w:88%"></div></div></div>
-              <div class="skill"><span>TS / Web</span><div class="bar"><div class="fill" style="--w:50%"></div></div></div>
+              <div class="skill"><span>Unity</span><div class="bar"><div class="fill" style="--w:75%"></div></div></div>
+              <div class="skill"><span>C#</span><div class="bar"><div class="fill" style="--w:50%"></div></div></div>
+              <div class="skill"><span>TS / Web</span><div class="bar"><div class="fill" style="--w:35%"></div></div></div>
             </div>
           </div>
 
@@ -58,8 +60,8 @@
 
     <section id="works" class="section works">
       <div class="container">
-        <h2 class="section-title">Работы</h2>
-        <p class="section-sub">Клик по карточке открывает demo / репозиторий.</p>
+        <h2 class="section-title" data-i18n="works_title">Работы</h2>
+        <p class="section-sub" data-i18n="works_subtitle">Несколько примеров моих работ</p>
 
         <div class="carousel" id="carousel" aria-roledescription="carousel">
           <button class="carousel-btn prev" data-action="prev" aria-label="Предыдущий">‹</button>
@@ -67,17 +69,23 @@
             <article class="card work" tabindex="0">
               <img src="assets/Carousel.gif" alt="Project 1">
               <h3>Carousel</h3>
-              <p>Настраиваемый компонент для Unity, который позволяет интерактивно вращать 3D/2D объекты в сцене.</p>
+              <p data-i18n="about_project1">Настраиваемый компонент для Unity, который позволяет интерактивно вращать 3D/2D объекты в сцене.</p>
               <div class="meta"><span>Unity, C#, DOTween</span></div>
-              <div class="work-links"><a href="https://github.com/campervcs934/Carousel" class="btn small ghost">Repo</a></div>
+              <div class="work-links"><a href="https://github.com/campervcs934/Carousel" class="btn small ghost">Github</a></div>
             </article>
-
             <article class="card work" tabindex="0">
               <img src="assets/Farm.gif" alt="Project 2">
               <h3>Farm clicker</h3>
-              <p>Тайм менеджмент игра про ферму.</p>
+              <p data-i18n="about_project2">Тайм менеджмент игра про ферму.</p>
               <div class="meta"><span>Unity, C#, VContainer, UniTask, DOTween</span></div>
-              <div class="work-links"><a href="#" class="btn small">Demo</a> <a href="https://github.com/campervcs934/FarmClicker" class="btn small ghost">Repo</a></div>
+              <div class="work-links"><a href="#" class="btn small">Itch.io</a> <a href="https://github.com/campervcs934/FarmClicker" class="btn small ghost">Github</a></div>
+            </article>
+            <article class="card work" tabindex="0">
+              <img src="assets/Puzzle.gif" alt="Project 3">
+              <h3 data-i18n="about_project3">Puzzle grid generator</h3>
+              <p>Настраиваемый компонент для Unity, создающий сетку пазловых кусочков с учётом формы их граней.</p>
+              <div class="meta"><span>Unity, C#</span></div>
+              <div class="work-links"><a href="https://github.com/campervcs934/PuzzleGridGenerator" class="btn small ghost">Github</a></div>
             </article>
             
 
@@ -90,7 +98,7 @@
 
     <section id="contact" class="section contact">
       <div class="container">
-        <h2 class="section-title">Контакты</h2>
+        <h2 class="section-title" data-i18n="contacts">Контакты</h2>
         <div class="contact-grid">
           <aside class="contact-info card">
             <p class="muted"> email: regulusblack934@gmail.com</p>
