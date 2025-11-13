@@ -27,7 +27,7 @@
     "works_subtitle": "Some examples of my work",
     "about_project1": "A customizable Unity component that allows interactive rotation of 3D/2D objects in the scene.",
     "about_project2": "A time-management farm game.",
-    "about_project3": "Puzzle grid generator",
+    "about_project3": "A customizable component for Unity that creates a grid of puzzle pieces based on the shape of their faces.",
     "contacts": "Contacts"
   }
 }
